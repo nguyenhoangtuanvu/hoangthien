@@ -290,6 +290,7 @@
 }
 .intro-left__img-wrapper {
     position: relative;
+    z-index: 2;
 }
 .intro__img-img  {
     width: 100%;
