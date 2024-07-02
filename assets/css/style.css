@@ -601,6 +601,81 @@
     margin-top: 5px;
     color: var(--text-color-black);
 }
+/* section contact */
+.box__contact-wrapper {
+    margin-top: 50px;
+    padding: 50px 0;
+    background: url(../img/bg-lienhe.jpg) no-repeat center;
+    background-size: cover;
+}
+.box__contact > div > div.section__title-wrapper  {
+    color: #fff;
+}
+.box__contact > div > div.section__title-wrapper::before  {
+    border-color: #fff;
+}
+.box__contact > div > div.section__title-wrapper::after  {
+    border-color: #fff;
+}
+.box__contact-form {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+}
+.contact__form {
+
+}
+.box__contact-input-wrapper {
+
+}
+.box__contact-input {
+    width: 100%;
+    height: 40px;
+    color: #fff !important;
+    background-color: rgb(255 255 255 / 58%);
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+.box__contact-input::placeholder {
+    color: #fff !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+.box__contact-form > .row {
+    margin-left: 0;
+    width: 100%;
+}
+.box__contact-input[type="number"]::-webkit-outer-spin-button,
+.box__contact-input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.box__contact-input:focus {
+    color: #fff !important;
+    background-color: rgb(255 255 255 / 58%);
+    border: 1px solid #fff;
+    font-size: 15px;
+    font-weight: 400;
+    outline: none;
+}
+.box__contact-form-are {
+    margin: 15px 0;
+}
+.box__contact-form-are > textarea {
+    height: 108px;
+    width: 100%;
+}
+.box__contact-form > input[type="submit"] {
+    background: #00295c url(../img/icon-send.png) no-repeat 10px center;
+    padding: 10px 20px 10px 45px;
+    display: block;
+    margin: auto;
+}
 
 /* partner */
 .section__partner {
