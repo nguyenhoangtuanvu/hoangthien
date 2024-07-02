@@ -16,10 +16,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
     
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="./assets/owlcarousel/owl.carousel.min.js"></script>
+
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <title>Hoàng Thiên</title>
+    <style>
+        .owl-img {
+            
+        }
+    </style>
 </head>
 <body>
     <div class="containerr">
@@ -577,7 +587,7 @@
         <!-- section contact end -->
 
         <!-- partner start -->
-        <div class="section container">
+        <!-- <div class="section container">
             <div class="section__head flex-center-center">
                 <div class="section__title-wrapper ">
                     <h1 class="section__title">ĐỐI TÁC</h1>
@@ -619,8 +629,34 @@
                     </div>
                 </div>
             </div>
+        </div> -->
+
+        <div class="section container">
+            <div class="section__head flex-center-center">
+                <div class="section__title-wrapper ">
+                    <h1 class="section__title">ĐỐI TÁC</h1>
+                    <h4 class="section__sub-title">Uy Tín - Chất Lượng - chính xác - Tạo nên Thương Hiệu</h4>
+                </div>
+            </div>
+            <div class="section__body">
+                <div class="row section__partner">
+                    <div class="partner-box owl-carousel">
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner1.png" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner2.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner3.png" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner4.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner5.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner5.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner5.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner5.jpg" alt="" class="partner-items-img"></a></div>
+                        <div><a href="#" class="partner-img-link"><img src="./assets/img/partner5.jpg" alt="" class="partner-items-img"></a></div>
+                       
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- partner end -->
+        
         <!-- footer start -->
         <footer class="row footer">
             <div class="row container footer__main flex-between-top">
@@ -713,5 +749,27 @@
     <!-- button fixed end -->
 
     <script src="./assets/JS/script.js"></script>
+    <script type="text/javascript">
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items:5,
+            loop:true,
+            margin:5,
+            autoplay:true,
+            autoplayTimeout:2000,
+            autoplayHoverPause:true,
+            responsive:{
+                0:{
+                    items:2
+                },
+                600:{
+                    items:4
+                },
+                1000:{
+                    items:6
+                }
+            }
+        });
+    </script>
 </body>
 </html>

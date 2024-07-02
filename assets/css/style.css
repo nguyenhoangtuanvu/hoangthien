@@ -775,11 +775,7 @@
     padding: 2px;
     margin: 0 5px;
 }
-.partner-items-img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
+
 
 @keyframes slide_partner {
     0% {
@@ -802,6 +798,20 @@
     }
 }
 
+
+.partner-img-link {
+    border: 1px solid #dcdcdc;
+    display: block;
+    height: 120px;
+    align-content: center;
+    padding: 2px;
+    /* margin: 0 5px; */
+}
+.partner-items-img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 /* footer */
 
 .footer {
