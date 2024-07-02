@@ -72,6 +72,11 @@ body {
     padding: 0 !important;
     margin: 0;
 }
+.containerr {
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+}
 .wrap-content {
     max-width: 1200px;
     margin: auto;
