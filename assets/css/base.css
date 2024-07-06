@@ -145,3 +145,40 @@ body {
     text-decoration: none;
     color: #000;
 }
+
+
+/* intro */
+.img_intro {
+    width: 100%;
+}
+.ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+.ul > li {
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+.h2 {
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.h3 {
+    font-size: 21px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+.span {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3;
+}
